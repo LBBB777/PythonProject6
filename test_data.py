@@ -70,10 +70,10 @@ LoginWithEmptyFields = [
 
 ################
 
-Performance_user = [
+Performance_glitch_user = [
 {
     'username': 'performance_glitch_user',
-    'password': 'current_password',
+    'password': 'secret_sauce',
     'expected_result': 'Корректный переход  несмотря на задержки'
 } ]
 
