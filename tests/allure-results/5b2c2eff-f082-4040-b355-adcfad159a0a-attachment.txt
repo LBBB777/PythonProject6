@@ -1,0 +1,4 @@
+Логин: 
+Пароль: secret_sauce
+Ожидаемое сообщение: Epic sadface: Password is required
+Фактическое сообщение: Epic sadface: Username is required

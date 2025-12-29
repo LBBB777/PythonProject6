@@ -1,0 +1,33 @@
+
+----------------------------------------
+ТЕСТИРУЮ ПАРУ С ВЕРНЫМ ЛОГИНОМ И НЕВЕРНЫМ ПАРОЛЕМ : standard_user/secret_s
+----------------------------------------
+
+Верное сообщение об ошибке.
+ОЖИДАЛОСЬ: Epic sadface: Username and password do not match any user in this service,
+ПОЛУЧЕНО: Epic sadface: Username and password do not match any user in this service
+Пользователь c неверным логином остановлен на странице авторизации!!!!!!!!!
+Тестовые данные: пара логин/пароль из словаря с верными логинами и неверными паролями (CurrentLoginInvalidPassword):
+ логин - standard_user,  пароль - secret_s
+
+----------------------------------------
+ТЕСТИРУЮ ПАРУ С ВЕРНЫМ ЛОГИНОМ И НЕВЕРНЫМ ПАРОЛЕМ : problem_user/1223secret_sauce
+----------------------------------------
+
+Верное сообщение об ошибке.
+ОЖИДАЛОСЬ: Epic sadface: Username and password do not match any user in this service,
+ПОЛУЧЕНО: Epic sadface: Username and password do not match any user in this service
+Пользователь c неверным логином остановлен на странице авторизации!!!!!!!!!
+Тестовые данные: пара логин/пароль из словаря с верными логинами и неверными паролями (CurrentLoginInvalidPassword):
+ логин - problem_user,  пароль - 1223secret_sauce
+
+----------------------------------------
+ТЕСТИРУЮ ПАРУ С ВЕРНЫМ ЛОГИНОМ И НЕВЕРНЫМ ПАРОЛЕМ : error_user/secret_Sauce
+----------------------------------------
+
+Верное сообщение об ошибке.
+ОЖИДАЛОСЬ: Epic sadface: Username and password do not match any user in this service,
+ПОЛУЧЕНО: Epic sadface: Username and password do not match any user in this service
+Пользователь c неверным логином остановлен на странице авторизации!!!!!!!!!
+Тестовые данные: пара логин/пароль из словаря с верными логинами и неверными паролями (CurrentLoginInvalidPassword):
+ логин - error_user,  пароль - secret_Sauce

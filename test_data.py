@@ -1,4 +1,4 @@
-
+# Тестовые данные -1
 CurrentUsernamePassword = [
     {
         'username': 'standard_user',
@@ -18,7 +18,7 @@ CurrentUsernamePassword = [
     }
     ]
 
-################
+################# Тестовые данные -2
 CurrentLoginInvalidPassword = [
     {
         'username': 'standard_user',
@@ -37,7 +37,7 @@ CurrentLoginInvalidPassword = [
         'expected_result': 'Ошибка авторизации'
     }]
 
-################
+################Тестовые данные -3
 Locked_user = [
     {
     'username': 'locked_out_user',
@@ -45,22 +45,22 @@ Locked_user = [
     'expected_result': 'Пользователь заблокирован'
     }
 ]
-################
+################ Тестовые данные -4
 LoginWithEmptyFields = [
     {
-        'username': 'standard_user',
-        'password': '',
+        'username': '',
+        'password': 'secret_sauce',
         'expected_result': 'Успешный вход'
     },
 {
-        'username': 'problem_user',
-        'password': '',
+        'username': '     ',
+        'password': 'secret_sauce',
         'expected_result': 'Успешный вход'
     },
 
 {
-        'username': 'error_user',
-        'password': '',
+        'username': '            ',
+        'password': 'secret_sauce',
         'expected_result': 'Успешный вход'
     }
 
@@ -68,7 +68,7 @@ LoginWithEmptyFields = [
 
 ]
 
-################
+################ Тестовые данные -5
 
 Performance_glitch_user = [
 {

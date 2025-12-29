@@ -1,0 +1,2 @@
+Ожидаемый URL: https://www.saucedemo.com/inventory.html
+Фактический URL: https://www.saucedemo.com/inventory.html

@@ -1,0 +1,4 @@
+Логин:             
+Пароль: secret_sauce
+Ожидаемое сообщение: Epic sadface: Username is required
+Фактическое сообщение: Epic sadface: Username and password do not match any user in this service
